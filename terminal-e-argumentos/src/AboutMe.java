@@ -21,6 +21,7 @@ public class AboutMe {
 
         System.out.println("Digite sua altura: ");
         double altura = scanner.nextDouble();
+        scanner.close();
 
         System.out.println("Meu nome é: " + nome + " " + sobrenome);
         System.out.println("Minha idade é: " + idade + " " + "anos");
